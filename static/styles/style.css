@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: radial-gradient( #4159d05f 0%, #c850c074 46%, #ffcd7048 100%);
+    width: 100%;
+}
+
+h1{
+font-size: 80px;
+text-align: center;
+background: linear-gradient(to left, #00dbde, #fc00ff, #00dbde);
+text-transform: uppercase;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin: 130px 100px 170px 100px;
+border-left: 5px solid transparent;
+border-right: 5px solid transparent;
+border-image: linear-gradient(10deg, #00dbde, #fc00ff, #00dbde);
+border-image-slice: 1;
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    background: conic-gradient( #00dbde, #fc00ff, #ff0011); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline #8187bb;
+}
+
+
+.accuracy-button {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 1.5rem;
+    color: black;
+    font-size: 20px;
+
+}
+.accuracy-button:hover {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg,#ff8d70 0%, #74c850 46%, #41d0a8 100%);
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+p{        
+  
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 33px;
+    border-radius: 15px;
+}
+
+#img1{
+    width: 1160px;
+    margin-left: 20px;
+    height: 550px;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    padding: 7px;
+    border-radius: 15px;
+}
+
+
+#img2{
+    width: 1160px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    padding: 7px;
+    border-radius: 15px;
+}
+
+#accordian{
+    /* margin-left: 60px; */
+    /* width: 90%; */
+}
+#accordian li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #fff;
+    border-radius: 4px;
+}
+#accordian li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 36px;
+    font-weight: 500;
+    cursor: pointer;
+    color:#c20000;
+}   
+#accordian label + input[type="radio"]{
+    display: none;
+}
+#accordian .content{
+
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+#accordian label + input[type="radio"]:checked + .content{
+    max-height: 1600px;
+} 
+
+footer{
+
+    background-color: black;
+    padding: 2px 0px 1px 0px ;
+    margin-top: 50px;
+
+}
+
+.footer{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #fff;
+    border-radius: 4px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+ 
+
+                    /* Practice code for gradient color border*/
+
+
+  /* .box{
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-image: linear-gradient(60deg, blue, red, green);
+    border-image-slice: 2;
+    height: 100px;
+    background-color: white;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }*/

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+   
+    <title>Sentiment Analysis Result</title>
+
+</head>
+<body>
+    <h1>Twitter Sentiment analysis for social media research</h1>
+
+    <ul id="accordian">
+        <li>
+          <label for="first">Show Results</label>
+          <input type="radio" name="Accordian" id="first">
+          <div class="content">
+            <p>
+                <a href="#" class="accuracy-button">Accuracy: {{ accuracy }}%</a>
+            </p>
+          </div>
+        </li>
+        <li>
+          <label for="second">Show Graphs</label>
+          <input type="radio" name="Accordian" id="second">
+          <div class="content">
+            <p>
+                <img id="img1" src="{{ graph_path }}" alt="Sentiment Graph">
+                 <img id="img2" src="{{ location_graph_path }}" alt="Location Graph">
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <footer>
+        <h2>Sentilytics</h2>
+        <b><p class="footer">&copy; 2022-2023 Sentilytics  |  All Rights Reserved</p></b>
+      </footer>
+
+      <li class="li">
+        <label for="third" checked></label>
+        <input type="radio" name="Accordian" id="third">
+        <div class="content">
+        
+        </div>
+      </li>
+
+
+</body>
+</html>
