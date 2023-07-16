@@ -4,7 +4,7 @@ This project focuses on performing sentiment analysis on Twitter data to gain in
 
 ## Features
 
-- Data Collection: Gather tweets based on user-defined search queries and collect them for analysis.
+- Data Collection: Gather tweets on the recent famous topic "Abortion Law".
 - Data Cleaning: Preprocess and clean the collected tweets to remove noise and ensure data integrity.
 - Sentiment Analysis: Utilize state-of-the-art sentiment analysis algorithms to classify tweets as positive, negative, or neutral.
 - Visualization: Generate visualizations, such as graphs and charts, to represent sentiment patterns and trends.
