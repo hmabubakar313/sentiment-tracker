@@ -21,6 +21,14 @@ This project focuses on performing sentiment analysis on Twitter data to gain in
 2. Enter your search query to collect relevant tweets.
 3. Perform data cleaning and sentiment analysis by selecting the appropriate options.
 4. Visualize the sentiment analysis results using the provided visualization tools.
+*  Classification of sentiment Analysis on the basis of tweets:
+
+     ![sentiment_graph](https://github.com/hmabubakar313/sentiment_analysis_w-o_twtr_api/assets/47010808/4b52a837-97d1-44d1-b999-1305c2be4e51)
+* Classification of sentiment Analysis on the basis of locations:
+
+   ![location_graph](https://github.com/hmabubakar313/sentiment_analysis_w-o_twtr_api/assets/47010808/37614903-c982-4c0c-8f77-b0ac2f0a85ef)
+
+
 
 ## Contributing
 
